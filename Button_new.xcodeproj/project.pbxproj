@@ -15,6 +15,8 @@
 		0A1335981C27FBE600906A6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A1335961C27FBE600906A6B /* LaunchScreen.storyboard */; };
 		0A1335A31C27FBE600906A6B /* Button_newTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1335A21C27FBE600906A6B /* Button_newTests.m */; };
 		0A1335AE1C27FBE600906A6B /* Button_newUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1335AD1C27FBE600906A6B /* Button_newUITests.m */; };
+		0A1335BD1C27FDF300906A6B /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1335BC1C27FDF300906A6B /* Button.m */; };
+		0A1335BF1C27FFB600906A6B /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0A1335BE1C27FFB600906A6B /* images.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		0A1335A91C27FBE600906A6B /* Button_newUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Button_newUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A1335AD1C27FBE600906A6B /* Button_newUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Button_newUITests.m; sourceTree = "<group>"; };
 		0A1335AF1C27FBE600906A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A1335BB1C27FC0400906A6B /* Button.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		0A1335BC1C27FDF300906A6B /* Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
+		0A1335BE1C27FFB600906A6B /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		0A1335871C27FBE500906A6B /* Button_new */ = {
 			isa = PBXGroup;
 			children = (
+				0A1335BE1C27FFB600906A6B /* images.jpeg */,
 				0A13358B1C27FBE500906A6B /* AppDelegate.h */,
 				0A13358C1C27FBE500906A6B /* AppDelegate.m */,
 				0A13358E1C27FBE500906A6B /* ViewController.h */,
@@ -110,6 +116,8 @@
 				0A1335961C27FBE600906A6B /* LaunchScreen.storyboard */,
 				0A1335991C27FBE600906A6B /* Info.plist */,
 				0A1335881C27FBE500906A6B /* Supporting Files */,
+				0A1335BB1C27FC0400906A6B /* Button.h */,
+				0A1335BC1C27FDF300906A6B /* Button.m */,
 			);
 			path = Button_new;
 			sourceTree = "<group>";
@@ -244,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A1335981C27FBE600906A6B /* LaunchScreen.storyboard in Resources */,
+				0A1335BF1C27FFB600906A6B /* images.jpeg in Resources */,
 				0A1335951C27FBE600906A6B /* Assets.xcassets in Resources */,
 				0A1335931C27FBE600906A6B /* Main.storyboard in Resources */,
 			);
@@ -273,6 +282,7 @@
 				0A1335901C27FBE600906A6B /* ViewController.m in Sources */,
 				0A13358D1C27FBE500906A6B /* AppDelegate.m in Sources */,
 				0A13358A1C27FBE500906A6B /* main.m in Sources */,
+				0A1335BD1C27FDF300906A6B /* Button.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
